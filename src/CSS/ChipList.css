@@ -1,0 +1,19 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap :1rem;
+    flex-wrap: wrap;
+    max-width: 70vw;
+    max-height: 26px;
+}
+/* .main-container{
+    flex-wrap: wrap;
+} */
+.input{
+    position: relative;
+}
+.individual-chip{
+    width: fit-content;
+}
